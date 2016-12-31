@@ -5,4 +5,10 @@ import { Component } from '@angular/core';
     selector: 'app',
     template: `<p>This is the application</p>`
 })
-export class AppComponent { }
+export class AppComponent { 
+
+    constructor() {
+        console.log('Constructing App Component');
+    }
+
+}
