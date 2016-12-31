@@ -1,0 +1,43 @@
+{
+  "name": "my-quickstart",
+  "version": "1.0.0",
+  "description": "Angular 2 With TypeScript Quick Start Project",
+  "main": "main.ts",
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangeshhasabnis/angular2-my-quickstart.git"
+  },
+  "keywords": [
+    "Angular2",
+    "QuickStart"
+  ],
+  "author": "Mangesh Hasabnis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mangeshhasabnis/angular2-my-quickstart/issues"
+  },
+  "homepage": "https://github.com/mangeshhasabnis/angular2-my-quickstart#readme",
+  "dependencies": {
+    "@angular/common": "^2.4.1",
+    "@angular/compiler": "^2.4.1",
+    "@angular/core": "^2.4.1",
+    "@angular/platform-browser": "^2.4.1",
+    "@angular/platform-browser-dynamic": "^2.4.1",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.0.2",
+    "systemjs": "^0.19.41",
+    "zone.js": "^0.7.4"
+  },
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.1.4"
+  }
+}

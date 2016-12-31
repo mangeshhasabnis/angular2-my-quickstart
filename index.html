@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <title>My Angular 2 Quick Start</title>
+    <script>
+        System.import('system-config.js').then(function() {
+            System.import('main');
+        }).catch(console.error.bind(console));
+    </script>
+</head>
+<body>
+    <p>This is My Angular 2 Quick Start</p>
+    <app></app>
+</body>
+</html>
